@@ -1,0 +1,47 @@
+{
+  "name": "mildlygeeky/craft-instruction-links",
+  "description": "Makes links in Craft CMS Instruction fields open in a new tab. Riveting stuff.",
+  "type": "craft-plugin",
+  "version": "1.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "craft instruction links"
+  ],
+  "support": {
+    "docs": "https://github.com/mildlygeeky/craft-instruction-links/blob/master/README.md",
+    "issues": "https://github.com/mildlygeeky/craft-instruction-links/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mildly Geeky, Inc.",
+      "homepage": "https://mildlygeeky.com"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "~3.0.0-beta.23"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "mildlygeeky\\craftinstructionlinks\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Craft Instruction Links",
+    "handle": "craft-instruction-links",
+    "schemaVersion": "1.0.0",
+    "hasCpSettings": false,
+    "hasCpSection": false,
+    "changelogUrl": "https://raw.githubusercontent.com/mildlygeeky/craft-instruction-links/master/CHANGELOG.md",
+    "class": "mildlygeeky\\craftinstructionlinks\\CraftInstructionLinks"
+  }
+}
